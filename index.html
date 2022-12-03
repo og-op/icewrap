@@ -4,10 +4,8 @@
       <head>
         <meta charset="utf-8" />
         <title>IceWrap - Task</title>
-        <meta
-          name="viewport"
-          content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"
-        />
+        <meta name="viewport" />
+        <meta content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
         <!-- Link Swiper's CSS -->
         <link
           rel="stylesheet"
@@ -31,6 +29,7 @@
 
 
         <section class="section">
+          <div class="section-wrapper">
             <h1>Desktop Suite</h1>
             <p>
                 Skyrocket your office work effectivity with Desktop Client and Desktop Office documents on Windows as well
@@ -42,7 +41,8 @@
                 <div class="btn">Download</div>
                 
                 <h3>Desktop Client</h3>
-                <h3>DDesktop Office</h3>
+                <h3>Desktop Office</h3>
+          </div>
         </section>
         <!-- Swiper -->
     
@@ -77,19 +77,24 @@
           <div class="swiper-wrapper">
             <div class="swiper-slide">
                 <img src="img/email.jpeg "/>
+                <span>Email</span>
               </div>
               <div class="swiper-slide">
                 <img src="img/calendar.jpeg" />
+                <span>Calendar</span>
               </div>
               <div class="swiper-slide">
                 <img src="img/contacts.jpeg" />
+                <span>Contacts</span>
               </div>
             <div class="swiper-slide">
                 <img src="img/attachments.jpeg" />
+                <span>Attachments</span>
               </div>
  
               <div class="swiper-slide">
                 <img src="img/dark-mode.jpeg" />
+                <span>Dark mode</span>
               </div>
 
           </div>
@@ -105,13 +110,13 @@
         <!-- Initialize Swiper -->
         <script>
           var swiper = new Swiper(".mySwiper", {
-            spaceBetween: 10,
+            spaceBetween: 24,
             slidesPerView: 5,
             freeMode: true,
             watchSlidesProgress: true,
           });
           var swiper2 = new Swiper(".mySwiper2", {
-            spaceBetween: 10,
+            spaceBetween: 24,
             navigation: {
               nextEl: ".swiper-button-next",
               prevEl: ".swiper-button-prev",
