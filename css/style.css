@@ -9,12 +9,14 @@ body {
 
 p {
     margin: 0 0 15px;
+    font-size: 20px;
+    line-height: 28px;
 }
 
 h1 {
-    font-size: 3rem;
-    line-height: 4rem;
-    font-weight: 300;
+    font-size: 48px;
+    line-height: 56px;
+    font-weight: 700;
 }
 
 .section {
