@@ -6,114 +6,186 @@
   <title>IceWrap - Task</title>
   <meta name="viewport" />
   <meta content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+
   <!-- Link Swiper's CSS -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
-
   <!--Google fonts link-->
-  <link href="https://fonts.googleapis.com/css?family=Roboto:400,600,700"
-    rel="stylesheet">
 
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,600,700" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
-
-
 </head>
 
 <body>
-
-
-  <section class="section">
+  <section class="section white-bg">
     <div class="section-wrapper">
-      <img class="icon" src="img/svg/office.svg" alt="IDesktop Office">
-
-      <h1>Desktop Suite<span>(v. 13.0.2)</span></h1>
-      <p>
-        Skyrocket your office work effectivity with Desktop Client and Desktop Office documents on Windows as well
-        as Linux devices. Get the complete Suite, or choose only the app you need.
-
-      </p>
-      <div class="box">
-        <span>Requirements:
-          Windows 10</span>
-          <div class="btn">Download</div>
+      <div class="header">
+        <div class="header-desktop-suite">
+          <img class="icon" src="img/svg/desktop-office.svg" alt="Desktop Suite">
+          <h1>Desktop Suite<span>(v. 13.0.2)</span></h1>
+          <p>
+            Skyrocket your office work effectivity with Desktop Client and Desktop Office documents on Windows as well
+            as Linux devices. Get the complete Suite, or choose only the app you need.
+          </p>
+        </div>
+        <div class="header-download-box">
+          <div class="requirements">
+            <div>Requirements:</div>
+            <div class="shadow-gray">Windows 10</div>
+          </div>
+          <div class="download">
+            <img src="img/svg/windows.svg" alt="Download">
+            <span>Download</span>
+          </div>
+        </div>
       </div>
-
-      <div class="switch active"> <img class="icon" src="img/svg/client.svg" alt="Client">
-        <h3>Desktop Client</h3>
-      </div>
-      <div class="switch"> <img class="icon" src="img/svg/office-white.svg" alt="Office">
-        <h3>Desktop Office</h3>
+      <div class="switcher">
+        <div class="switch client active"> <img class="icons" src="img/svg/desktop-client.svg" alt="Desktop Client">
+          <h3>Desktop Client</h3>
+        </div>
+        <div class="switch office"> <img class="icons" src="img/svg/desktop-office-white.svg" alt="Desktop Office">
+          <h3>Desktop Office</h3>
+        </div>
       </div>
     </div>
   </section>
-  <!-- Swiper -->
+  <section class="section">
+    <div class="section-wrapper">
 
-  <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="swiper mySwiper2">
-    <div class="swiper-wrapper">
-      <div class="swiper-slide">
-        <img src="img/email.jpeg " />
+      <!-- Swiper Desktop Client -->
+      <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="swiper Swiper2">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="img/email.jpeg " />
+          </div>
+          <div class="swiper-slide">
+            <img src="img/calendar.jpeg" />
+          </div>
+          <div class="swiper-slide">
+            <img src="img/contacts.jpeg" />
+          </div>
+          <div class="swiper-slide">
+            <img src="img/attachments.jpeg" />
+          </div>
+          <div class="swiper-slide">
+            <img src="img/dark-mode.jpeg" />
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+      <div thumbsSlider="" class="swiper Swiper1">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="img/email.jpeg " />
+            <span>Email</span>
+          </div>
+          <div class="swiper-slide">
+            <img src="img/calendar.jpeg" />
+            <span>Calendar</span>
+          </div>
+          <div class="swiper-slide">
+            <img src="img/contacts.jpeg" />
+            <span>Contacts</span>
+          </div>
+          <div class="swiper-slide">
+            <img src="img/attachments.jpeg" />
+            <span>Attachments</span>
+          </div>
+          <div class="swiper-slide">
+            <img src="img/dark-mode.jpeg" />
+            <span>Dark mode</span>
+          </div>
+        </div>
       </div>
 
-
-      <div class="swiper-slide">
-        <img src="img/calendar.jpeg" />
+      <!-- Swiper Desktop Office -->
+      <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="swiper Swiper4">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="img/documents.jpeg" />
+          </div>
+          <div class="swiper-slide">
+            <img src="img/spreadsheets.jpeg" />
+          </div>
+          <div class="swiper-slide">
+            <img src="img/presentations.jpeg" />
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
       </div>
-      <div class="swiper-slide">
-        <img src="img/contacts.jpeg" />
+      <div thumbsSlider="" class="swiper Swiper3">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="img/documents.jpeg" />
+            <span>Documents</span>
+          </div>
+          <div class="swiper-slide">
+            <img src="img/spreadsheets.jpeg" />
+            <span>Spreadsheets</span>
+          </div>
+          <div class="swiper-slide">
+            <img src="img/presentations.jpeg" />
+            <span>Presentations</span>
+          </div>
+        </div>
       </div>
-      <div class="swiper-slide">
-        <img src="img/attachments.jpeg" />
-      </div>
-      <div class="swiper-slide">
-        <img src="img/dark-mode.jpeg" />
-      </div>
-
     </div>
-    <div class="swiper-button-next"></div>
-    <div class="swiper-button-prev"></div>
-  </div>
-  <div thumbsSlider="" class="swiper mySwiper">
-    <div class="swiper-wrapper">
-      <div class="swiper-slide">
-        <img src="img/email.jpeg " />
-        <span>Email</span>
-      </div>
-      <div class="swiper-slide">
-        <img src="img/calendar.jpeg" />
-        <span>Calendar</span>
-      </div>
-      <div class="swiper-slide">
-        <img src="img/contacts.jpeg" />
-        <span>Contacts</span>
-      </div>
-      <div class="swiper-slide">
-        <img src="img/attachments.jpeg" />
-        <span>Attachments</span>
-      </div>
-
-      <div class="swiper-slide">
-        <img src="img/dark-mode.jpeg" />
-        <span>Dark mode</span>
-      </div>
-
-    </div>
-  </div>
-
-  <div class="swiper-slide">
-    <img src="img/documents.jpeg" />
-  </div>
+  </section>
 
   <!-- Swiper JS -->
   <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
 
   <!-- Initialize Swiper -->
   <script>
-    var swiper = new Swiper(".mySwiper", {
+    var swiper = new Swiper(".Swiper1", {
       spaceBetween: 24,
-      slidesPerView: 5,
       freeMode: true,
       watchSlidesProgress: true,
+      breakpoints: {
+        320: {
+          slidesPerView: 1
+        },
+        480: {
+          slidesPerView: 3
+        },
+        640: {
+          slidesPerView: 4
+        },
+        920: {
+          slidesPerView: 5
+        }
+      }
     });
-    var swiper2 = new Swiper(".mySwiper2", {
+    var swiper2 = new Swiper(".Swiper2", {
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      thumbs: {
+        swiper: swiper,
+      },
+    });
+    var swiper = new Swiper(".Swiper3", {
+      spaceBetween: 24,
+      freeMode: true,
+      watchSlidesProgress: true,
+      breakpoints: {
+        320: {
+          slidesPerView: 1
+        },
+        480: {
+          slidesPerView: 3
+        },
+        640: {
+          slidesPerView: 4
+        },
+        920: {
+          slidesPerView: 5
+        }
+      }
+    });
+    var swiper4 = new Swiper(".Swiper4", {
       spaceBetween: 24,
       navigation: {
         nextEl: ".swiper-button-next",
@@ -123,6 +195,7 @@
         swiper: swiper,
       },
     });
+
   </script>
 </body>
 
