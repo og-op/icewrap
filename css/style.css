@@ -232,13 +232,6 @@ p {
   }
 }
 
-@media (max-width: 920px) {
-
-  .swiper-button-next,
-  .swiper-button-prev {
-    display: block;
-  }
-}
 
 @media (max-width: 840px) {
   .header {
@@ -279,6 +272,7 @@ p {
   .switch h3 {
     font-size: 18px;
     line-height: 20px;
+    margin-top: 14px;
   }
 
 }
@@ -300,8 +294,18 @@ p {
     opacity: 1;
   }
 
+  .swiper-button-next, .swiper-button-prev {
+    display:block;
+    margin-top: calc(-30px - (var(--swiper-navigation-size)/ 2));
+  }
   .switcher {
     gap: 20px;
+  }
+
+  .switch h3 {
+    font-size: 16px;
+    line-height: 18px;
+    margin-top: 16px;
   }
 
 }

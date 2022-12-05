@@ -1,5 +1,9 @@
 // Swiper
 var swiper = new Swiper(".Swiper1", {
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
   spaceBetween: 24,
   freeMode: true,
   watchSlidesProgress: true,
@@ -28,6 +32,10 @@ var swiper2 = new Swiper(".Swiper2", {
   },
 });
 var swiper = new Swiper(".Swiper3", {
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
   spaceBetween: 24,
   freeMode: true,
   watchSlidesProgress: true,
