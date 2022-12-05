@@ -298,6 +298,7 @@ p {
     display:block;
     margin-top: calc(-30px - (var(--swiper-navigation-size)/ 2));
   }
+ 
   .switcher {
     gap: 20px;
   }
