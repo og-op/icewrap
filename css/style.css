@@ -116,7 +116,7 @@ p {
 .switch {
   display: flex;
   justify-content: start;
-  height: 64px;
+  height: 60px;
   cursor: pointer;
 }
 
@@ -176,6 +176,11 @@ p {
   display: none;
 }
 
+.Swiper3,
+.Swiper4 {
+  display: none;
+}
+
 .Swiper2,
 .Swiper4 {
   width: 100%;
@@ -207,7 +212,6 @@ p {
 .Swiper3 .swiper-slide-thumb-active img {
   opacity: 0.5;
 }
-
 
 .Swiper1 .swiper-slide span,
 .Swiper3 .swiper-slide span {
