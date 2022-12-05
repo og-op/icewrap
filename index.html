@@ -39,10 +39,12 @@
         </div>
       </div>
       <div class="switcher">
-        <div class="switch client active"> <img class="icons" src="img/svg/desktop-client.svg" alt="Desktop Client">
+        <div class="switch client active" id="client"> <img class="icons" src="img/svg/desktop-client.svg"
+            alt="Desktop Client">
           <h3>Desktop Client</h3>
         </div>
-        <div class="switch office"> <img class="icons" src="img/svg/desktop-office-white.svg" alt="Desktop Office">
+        <div class="switch office" id="office"> <img class="icons" src="img/svg/desktop-office-white.svg"
+            alt="Desktop Office">
           <h3>Desktop Office</h3>
         </div>
       </div>
@@ -136,67 +138,9 @@
   <!-- Swiper JS -->
   <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
 
-  <!-- Initialize Swiper -->
-  <script>
-    var swiper = new Swiper(".Swiper1", {
-      spaceBetween: 24,
-      freeMode: true,
-      watchSlidesProgress: true,
-      breakpoints: {
-        320: {
-          slidesPerView: 1
-        },
-        480: {
-          slidesPerView: 3
-        },
-        640: {
-          slidesPerView: 4
-        },
-        920: {
-          slidesPerView: 5
-        }
-      }
-    });
-    var swiper2 = new Swiper(".Swiper2", {
-      navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-      },
-      thumbs: {
-        swiper: swiper,
-      },
-    });
-    var swiper = new Swiper(".Swiper3", {
-      spaceBetween: 24,
-      freeMode: true,
-      watchSlidesProgress: true,
-      breakpoints: {
-        320: {
-          slidesPerView: 1
-        },
-        480: {
-          slidesPerView: 3
-        },
-        640: {
-          slidesPerView: 4
-        },
-        920: {
-          slidesPerView: 5
-        }
-      }
-    });
-    var swiper4 = new Swiper(".Swiper4", {
-      spaceBetween: 24,
-      navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-      },
-      thumbs: {
-        swiper: swiper,
-      },
-    });
+  <script src="js/main.js"></script>
 
-  </script>
+  
 </body>
 
 </html>
