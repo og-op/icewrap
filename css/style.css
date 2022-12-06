@@ -293,17 +293,18 @@ p {
   .Swiper3 .swiper-slide-thumb-active img {
     opacity: 1;
   }
-  
-  .Swiper1 .swiper-slide-thumb-active span, 
+
+  .Swiper1 .swiper-slide-thumb-active span,
   .Swiper3 .swiper-slide-thumb-active span {
     color: #585858;
   }
 
-  .swiper-button-next, .swiper-button-prev {
-    display:block;
+  .swiper-button-next,
+  .swiper-button-prev {
+    display: block;
     margin-top: calc(-30px - (var(--swiper-navigation-size)/ 2));
   }
- 
+
   .switcher {
     gap: 20px;
   }
