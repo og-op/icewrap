@@ -116,7 +116,7 @@ p {
 .switch {
   display: flex;
   justify-content: start;
-  height: 60px;
+  height: 62px;
   cursor: pointer;
 }
 
